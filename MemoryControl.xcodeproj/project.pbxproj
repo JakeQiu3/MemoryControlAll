@@ -20,6 +20,8 @@
 		30E987611C9321A9007C5D2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987601C9321A9007C5D2A /* FirstViewController.m */; };
 		30E987641C93229E007C5D2A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987631C93229E007C5D2A /* Student.m */; };
 		30E987661C93245E007C5D2A /* 内存基本管理 in Resources */ = {isa = PBXBuildFile; fileRef = 30E987651C93245E007C5D2A /* 内存基本管理 */; };
+		7312F6001C966A940018AB74 /* strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FE1C966A940018AB74 /* strong.png */; };
+		7312F6011C966A940018AB74 /* weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FF1C966A940018AB74 /* weak.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		30E987621C93229E007C5D2A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		30E987631C93229E007C5D2A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		30E987651C93245E007C5D2A /* 内存基本管理 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "内存基本管理"; sourceTree = "<group>"; };
+		7312F5FE1C966A940018AB74 /* strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strong.png; sourceTree = "<group>"; };
+		7312F5FF1C966A940018AB74 /* weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weak.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 			children = (
 				30E9875F1C9321A9007C5D2A /* FirstViewController.h */,
 				30E987601C9321A9007C5D2A /* FirstViewController.m */,
+				7312F5FE1C966A940018AB74 /* strong.png */,
+				7312F5FF1C966A940018AB74 /* weak.png */,
 				30E987621C93229E007C5D2A /* Student.h */,
 				30E987631C93229E007C5D2A /* Student.m */,
 				306F75871C947851009420D1 /* 1.png */,
@@ -183,6 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7312F6011C966A940018AB74 /* weak.png in Resources */,
+				7312F6001C966A940018AB74 /* strong.png in Resources */,
 				30E9874B1C931A35007C5D2A /* LaunchScreen.storyboard in Resources */,
 				306F75881C947851009420D1 /* 1.png in Resources */,
 				306F758A1C947945009420D1 /* 2.png in Resources */,
