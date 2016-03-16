@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol CatDelegate <NSObject>
+@end
+
+
 @interface Cat : NSObject
+@property (nonatomic, weak)id<CatDelegate> delegate;
 
 @end

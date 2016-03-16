@@ -10,4 +10,8 @@
 
 @implementation Cat
 
+- (void)dealloc {
+    NSLog(@"Cat被----销毁");
+}
+
 @end

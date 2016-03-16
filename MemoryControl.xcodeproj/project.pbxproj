@@ -20,6 +20,8 @@
 		30E987611C9321A9007C5D2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987601C9321A9007C5D2A /* FirstViewController.m */; };
 		30E987641C93229E007C5D2A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987631C93229E007C5D2A /* Student.m */; };
 		30E987661C93245E007C5D2A /* 内存基本管理 in Resources */ = {isa = PBXBuildFile; fileRef = 30E987651C93245E007C5D2A /* 内存基本管理 */; };
+		30FACDCE1C99B1A6002D4656 /* strong的delegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FACDCD1C99B1A6002D4656 /* strong的delegate.png */; };
+		30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */; };
 		7312F6001C966A940018AB74 /* strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FE1C966A940018AB74 /* strong.png */; };
 		7312F6011C966A940018AB74 /* weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FF1C966A940018AB74 /* weak.png */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,8 @@
 		30E987621C93229E007C5D2A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		30E987631C93229E007C5D2A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		30E987651C93245E007C5D2A /* 内存基本管理 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "内存基本管理"; sourceTree = "<group>"; };
+		30FACDCD1C99B1A6002D4656 /* strong的delegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strong的delegate.png"; sourceTree = "<group>"; };
+		30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak 的delegate.png"; sourceTree = "<group>"; };
 		7312F5FE1C966A940018AB74 /* strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strong.png; sourceTree = "<group>"; };
 		7312F5FF1C966A940018AB74 /* weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weak.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +114,8 @@
 				30E987561C932121007C5D2A /* TestDelegateViewController.m */,
 				30E987581C93213B007C5D2A /* Person.h */,
 				30E987591C93213B007C5D2A /* Person.m */,
+				30FACDCD1C99B1A6002D4656 /* strong的delegate.png */,
+				30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */,
 				30E9875B1C932147007C5D2A /* Cat.h */,
 				30E9875C1C932147007C5D2A /* Cat.m */,
 			);
@@ -191,6 +197,8 @@
 			files = (
 				7312F6011C966A940018AB74 /* weak.png in Resources */,
 				7312F6001C966A940018AB74 /* strong.png in Resources */,
+				30FACDCE1C99B1A6002D4656 /* strong的delegate.png in Resources */,
+				30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */,
 				30E9874B1C931A35007C5D2A /* LaunchScreen.storyboard in Resources */,
 				306F75881C947851009420D1 /* 1.png in Resources */,
 				306F758A1C947945009420D1 /* 2.png in Resources */,

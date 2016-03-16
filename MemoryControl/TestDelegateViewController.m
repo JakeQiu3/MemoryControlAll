@@ -7,8 +7,17 @@
 //
 
 #import "TestDelegateViewController.h"
-
+#import "Person.h"
 @interface TestDelegateViewController ()
+@property (nonatomic, strong)Person *person1;
+#warning 少  指针和对象的区别
+// 1、内存的使用状态：门牌号至少有一个，房间内有东西。2、内存的泄露状态：门牌号还在，但房间内放的已不是原来的东西或者说房子里放的都是垃圾。 3、引用计数为0：门牌号都没了。
+
+
+// 指针：是一栋大楼的门牌号码（地址），它指向的对象：是这房间的东西（内存）。
+//空指针：一个被赋值为0的指针，在没有被具体初始化之前，其值为0（nil或NSNull）。空指针发送消息不会报错。 如：char *a; 该指针就是空指针。
+//野指针：指向僵尸对象的指针。给野指针发送消息会报错。房子已非，门牌号还在。
+//僵尸对象：已被释放掉的内存。房子内放的很可能不是原来的东西
 
 @end
 
@@ -16,7 +25,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    下面这行代码的作用域是viewDidLoad这个大括号。
+//    门牌号                房间内东西
+    Person *person = [[Person alloc]init];
+//   又多了一个门牌号，切这个门牌号是和该控制器生命周期一样。
+    self.person1 = person;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +37,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
