@@ -24,6 +24,7 @@
 		30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */; };
 		7312F6001C966A940018AB74 /* strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FE1C966A940018AB74 /* strong.png */; };
 		7312F6011C966A940018AB74 /* weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FF1C966A940018AB74 /* weak.png */; };
+		73FEEA381C98FDE500E31EAF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FEEA371C98FDE500E31EAF /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak 的delegate.png"; sourceTree = "<group>"; };
 		7312F5FE1C966A940018AB74 /* strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strong.png; sourceTree = "<group>"; };
 		7312F5FF1C966A940018AB74 /* weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weak.png; sourceTree = "<group>"; };
+		73FEEA371C98FDE500E31EAF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				30E987631C93229E007C5D2A /* Student.m */,
 				306F75871C947851009420D1 /* 1.png */,
 				306F75891C947945009420D1 /* 2.png */,
+				73FEEA371C98FDE500E31EAF /* 3.png */,
 				30E987651C93245E007C5D2A /* 内存基本管理 */,
 			);
 			name = "内存的基本使用法则";
@@ -200,6 +203,7 @@
 				30FACDCE1C99B1A6002D4656 /* strong的delegate.png in Resources */,
 				30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */,
 				30E9874B1C931A35007C5D2A /* LaunchScreen.storyboard in Resources */,
+				73FEEA381C98FDE500E31EAF /* 3.png in Resources */,
 				306F75881C947851009420D1 /* 1.png in Resources */,
 				306F758A1C947945009420D1 /* 2.png in Resources */,
 				30E987661C93245E007C5D2A /* 内存基本管理 in Resources */,
