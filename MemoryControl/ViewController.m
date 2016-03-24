@@ -27,9 +27,10 @@
 }
 
 - (void)loadData {
-    _fileNameArray = @[@"内存使用的基本法则",@"delegate的内存循环引用问题",@" ",@" ",@" ",@" "].mutableCopy;
-    _titileArray = @[@"FirstViewController",@"TestDelegateViewController",@" ",@" ",@" ",@" "].mutableCopy;
+    _fileNameArray = @[@"内存使用的基本法则",@"delegate的内存循环引用问题",@"内存管理小技巧",@" ",@" ",@" "].mutableCopy;
+    _titileArray = @[@"FirstViewController",@"TestDelegateViewController",@"ThreeViewController",@" ",@" ",@" "].mutableCopy;
 }
+
 - (void)setUI {
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableView.delegate = self;

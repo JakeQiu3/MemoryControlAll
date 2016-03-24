@@ -13,6 +13,8 @@
 
 
 @interface Cat : NSObject
-@property (nonatomic, weak)id<CatDelegate> delegate;
+@property (nonatomic, strong)id<CatDelegate> delegate;
+
+//@property (nonatomic, weak)id<CatDelegate> delegate;
 
 @end

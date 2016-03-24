@@ -19,11 +19,14 @@
 		30E9875D1C932147007C5D2A /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E9875C1C932147007C5D2A /* Cat.m */; };
 		30E987611C9321A9007C5D2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987601C9321A9007C5D2A /* FirstViewController.m */; };
 		30E987641C93229E007C5D2A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E987631C93229E007C5D2A /* Student.m */; };
-		30E987661C93245E007C5D2A /* 内存基本管理 in Resources */ = {isa = PBXBuildFile; fileRef = 30E987651C93245E007C5D2A /* 内存基本管理 */; };
+		30E987661C93245E007C5D2A /* 内存基本管理.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E987651C93245E007C5D2A /* 内存基本管理.png */; };
 		30FACDCE1C99B1A6002D4656 /* strong的delegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FACDCD1C99B1A6002D4656 /* strong的delegate.png */; };
 		30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */; };
 		7312F6001C966A940018AB74 /* strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FE1C966A940018AB74 /* strong.png */; };
 		7312F6011C966A940018AB74 /* weak.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312F5FF1C966A940018AB74 /* weak.png */; };
+		73F9E9731CA3C0C3005065EC /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9E9721CA3C0C3005065EC /* ThreeViewController.m */; };
+		73F9E9751CA3D997005065EC /* strong和weak的比较.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F9E9741CA3D997005065EC /* strong和weak的比较.png */; };
+		73F9E9771CA3DDB3005065EC /* instruments的看图片的头部地址.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F9E9761CA3DDB3005065EC /* instruments的看图片的头部地址.png */; };
 		73FEEA381C98FDE500E31EAF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FEEA371C98FDE500E31EAF /* 3.png */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +52,15 @@
 		30E987601C9321A9007C5D2A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		30E987621C93229E007C5D2A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		30E987631C93229E007C5D2A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		30E987651C93245E007C5D2A /* 内存基本管理 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "内存基本管理"; sourceTree = "<group>"; };
+		30E987651C93245E007C5D2A /* 内存基本管理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内存基本管理.png"; sourceTree = "<group>"; };
 		30FACDCD1C99B1A6002D4656 /* strong的delegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strong的delegate.png"; sourceTree = "<group>"; };
 		30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak 的delegate.png"; sourceTree = "<group>"; };
 		7312F5FE1C966A940018AB74 /* strong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strong.png; sourceTree = "<group>"; };
 		7312F5FF1C966A940018AB74 /* weak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weak.png; sourceTree = "<group>"; };
+		73F9E9711CA3C0C3005065EC /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		73F9E9721CA3C0C3005065EC /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		73F9E9741CA3D997005065EC /* strong和weak的比较.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strong和weak的比较.png"; sourceTree = "<group>"; };
+		73F9E9761CA3DDB3005065EC /* instruments的看图片的头部地址.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instruments的看图片的头部地址.png"; sourceTree = "<group>"; };
 		73FEEA371C98FDE500E31EAF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +98,7 @@
 				30E9873F1C931A35007C5D2A /* AppDelegate.m */,
 				30E987521C9320E4007C5D2A /* ViewController.h */,
 				30E987531C9320E4007C5D2A /* ViewController.m */,
+				73F9E9701CA3C09A005065EC /* 内存管理小技巧 */,
 				30E987671C9325AE007C5D2A /* 内存的基本使用法则 */,
 				30E9875E1C93214D007C5D2A /* Delegate的使用 */,
 				30E987471C931A35007C5D2A /* Assets.xcassets */,
@@ -120,6 +128,7 @@
 				30FACDCF1C99B1FF002D4656 /* weak 的delegate.png */,
 				30E9875B1C932147007C5D2A /* Cat.h */,
 				30E9875C1C932147007C5D2A /* Cat.m */,
+				73F9E9741CA3D997005065EC /* strong和weak的比较.png */,
 			);
 			name = "Delegate的使用";
 			sourceTree = "<group>";
@@ -136,9 +145,19 @@
 				306F75871C947851009420D1 /* 1.png */,
 				306F75891C947945009420D1 /* 2.png */,
 				73FEEA371C98FDE500E31EAF /* 3.png */,
-				30E987651C93245E007C5D2A /* 内存基本管理 */,
+				30E987651C93245E007C5D2A /* 内存基本管理.png */,
 			);
 			name = "内存的基本使用法则";
+			sourceTree = "<group>";
+		};
+		73F9E9701CA3C09A005065EC /* 内存管理小技巧 */ = {
+			isa = PBXGroup;
+			children = (
+				73F9E9711CA3C0C3005065EC /* ThreeViewController.h */,
+				73F9E9721CA3C0C3005065EC /* ThreeViewController.m */,
+				73F9E9761CA3DDB3005065EC /* instruments的看图片的头部地址.png */,
+			);
+			name = "内存管理小技巧";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,14 +218,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7312F6011C966A940018AB74 /* weak.png in Resources */,
+				73F9E9751CA3D997005065EC /* strong和weak的比较.png in Resources */,
 				7312F6001C966A940018AB74 /* strong.png in Resources */,
 				30FACDCE1C99B1A6002D4656 /* strong的delegate.png in Resources */,
 				30FACDD01C99B1FF002D4656 /* weak 的delegate.png in Resources */,
 				30E9874B1C931A35007C5D2A /* LaunchScreen.storyboard in Resources */,
+				73F9E9771CA3DDB3005065EC /* instruments的看图片的头部地址.png in Resources */,
 				73FEEA381C98FDE500E31EAF /* 3.png in Resources */,
 				306F75881C947851009420D1 /* 1.png in Resources */,
 				306F758A1C947945009420D1 /* 2.png in Resources */,
-				30E987661C93245E007C5D2A /* 内存基本管理 in Resources */,
+				30E987661C93245E007C5D2A /* 内存基本管理.png in Resources */,
 				30E987481C931A35007C5D2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +245,7 @@
 				30E987641C93229E007C5D2A /* Student.m in Sources */,
 				30E987571C932121007C5D2A /* TestDelegateViewController.m in Sources */,
 				30E9875A1C93213B007C5D2A /* Person.m in Sources */,
+				73F9E9731CA3C0C3005065EC /* ThreeViewController.m in Sources */,
 				30E987401C931A35007C5D2A /* AppDelegate.m in Sources */,
 				30E9873D1C931A35007C5D2A /* main.m in Sources */,
 			);
@@ -279,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -317,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MemoryControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wnqsy.com.MemoryControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MemoryControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wnqsy.com.MemoryControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";

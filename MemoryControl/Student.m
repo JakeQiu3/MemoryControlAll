@@ -13,12 +13,12 @@
 {
     self = [super init];
     if (self) {
-        NSLog(@"我被创建了");
+        NSLog(@"Student被创建了");
     }
     return self;
 }
 
 - (void)dealloc {
-    NSLog(@"已被销毁，请节哀");
+    NSLog(@"Student已被销毁，请节哀");
 }
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Person : NSObject
-
+#import "Cat.h"
+@interface Person : NSObject <CatDelegate>
+@property (nonatomic, strong)Cat *cat;
 @end

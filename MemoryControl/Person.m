@@ -9,9 +9,9 @@
 #import "Person.h"
 #import "Cat.h"
 
-@interface Person()<CatDelegate>
+@interface Person()
 
-@property (nonatomic, strong)Cat *cat;
+
 
 @end
 
@@ -25,7 +25,6 @@
         self.cat = [[Cat alloc] init];
         // cat的delegate引用self,self的retainCount，取决于delegate修饰，weak：retainCount不变，strong：retainCount + 1。
         self.cat.delegate = self;
-        
     }
     return self;
 }

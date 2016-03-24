@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
-//文／汉斯哈哈哈（简书作者）
 
 // weak:指明该对象并不负责保持delegate这个对象，delegate这个对象的销毁由外部控制。
 
